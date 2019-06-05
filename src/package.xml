@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>SALES_LaunchpadController</members>
+        <members>SalesHD_Account</members>
+        <members>SalesHD_Contact</members>
+        <members>SalesHD_Event</members>
+        <members>SalesHD_Homepage</members>
+        <members>SalesHD_NewPhysicianRequest</members>
+        <members>SalesHD_TestRedesign</members>
+        <members>SalesHD_Unit</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SALES_Launchpad</members>
+        <members>SalesHD_Account</members>
+        <members>SalesHD_Accounts</members>
+        <members>SalesHD_CompleteEncounter</members>
+        <members>SalesHD_Contact</members>
+        <members>SalesHD_Contacts</members>
+        <members>SalesHD_EditAccount</members>
+        <members>SalesHD_EditContact</members>
+        <members>SalesHD_Encounter</members>
+        <members>SalesHD_Encounters</members>
+        <members>SalesHD_Homepage</members>
+        <members>SalesHD_Medpar</members>
+        <members>SalesHD_NewContact</members>
+        <members>SalesHD_NewEncounter</members>
+        <members>SalesHD_NewPhysicianRequest</members>
+        <members>SalesHD_Unit</members>
+        <name>ApexPage</name>
+    </types>
+    <version>38.0</version>
+</Package>

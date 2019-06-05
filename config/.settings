@@ -1,0 +1,17 @@
+{
+    "projectName": "Kindred NewHD",
+    "username": "smitj117@kndcrm.com.newhd",
+    "id": "c6c607f0-1809-11e9-ac3a-17c076d21303",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://kindred--NewHD.cs14.my.salesforce.com",
+    "workspace": "/Users/Jordan/Desktop/Desktop Folders/MavensMate",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}
