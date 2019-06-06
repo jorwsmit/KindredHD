@@ -66,7 +66,7 @@ global without sharing class SalesHD_Account {
 			contactCount.put(String.valueOf(ar.get('Account_unit__c')), Integer.valueOf(ar.get('expr0')));
 		}
 		for(Account_Unit__c au : [select Unit__r.Name, Id, Active__c from Account_Unit__c
-		where Account__c = :acctId and Unit__r.Name!='Administrative']){
+		where Account__c = :acctId and Unit__r.Name!='Administrative' and Unit__r.Active__c=true]){
 			unitList temp = new unitList();
 			temp.name = au.Unit__r.Name;
 			temp.unitId = au.Id;
